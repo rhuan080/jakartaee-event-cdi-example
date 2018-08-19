@@ -1,5 +1,5 @@
 
-## JAKARTAEE-EVENT_CDI_EXAMPLE ##
+## JAKARTAEE_EVENT_CDI_EXAMPLE ##
 
 This is an example of how to use Event in CDI with Java EE 8. In this example we demonstrate an example of sending e-mail using event in CDI.
 This content was created to my post in my blog https://rhuanrocha.net/2018/08/20/how-to-use-event-cdi-on-java-ee-8/

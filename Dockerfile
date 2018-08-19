@@ -40,11 +40,11 @@ ENTRYPOINT sh asadmin start-domain ${DOMAIN_NAME}  && \
 USER serveradmin
 EXPOSE 4848 8009 8080 8181
 
-COPY ./ /etc/event-cdi-example
+COPY ./ /etc/jakartaee-event-cdi-example
 
 
 ENV DEPLOYMENT_DIR ${GLASSFISH_HOME}glassfish/domains/domain1/autodeploy
-ENV PROJECT_HOME /etc/event-cdi-example
+ENV PROJECT_HOME /etc/jakartaee-event-cdi-example
 
 USER root
 
